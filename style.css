@@ -1,0 +1,60 @@
+/* 1. Global Reset: Membersihkan margin dan padding bawaan browser */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+/* 2. Styling Body: Mengatur latar belakang halaman */
+body {
+    background-color: #ccc;
+}
+/* 3. Card Container: Kotak utama konten */
+.card {
+    background-color: #F9F8F6;
+        border: 1px solid #F9F8F6;
+        border-radius: 10px;
+        width: 80%;
+        margin: auto;
+        margin-top: 50px;
+        margin-bottom: 20px;
+        padding: 30px;
+        display: flex;
+        gap: 10%;
+        text-align: justify;
+}
+/* 4. Image Container: Mengatur posisi area gambar */
+.image-container{
+    padding-top: 30px;
+    padding-left: 50px;
+}
+
+button{
+    width: 100%;
+    border: white;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px rgba(133, 130, 130,0.5) ;
+
+}
+
+.cardbutton{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    background-color: #F9F8F6;
+    margin: auto;
+    padding: 25px;
+    width: 80%;
+    border-radius: 10px;
+    height: 20px;
+}
+
+.container{
+    display: flex;
+}
+
+#hasil{
+    text-align: center;
+    margin-top: 50px;
+}
